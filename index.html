@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fort Worth PD News Release Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="form-container">
+        <form id="release-form">
+            <input type="text" id="title" placeholder="News Release Title">
+            <input type="date" id="release-date">
+            <textarea id="content" placeholder="News Release Content"></textarea>
+            <button type="submit">Generate Image</button>
+        </form>
+    </div>
+    
+    <div id="preview-container">
+        <canvas id="release-canvas" width="1100" height="1600"></canvas>
+        <a id="download-link" download="news_release.png">Download Image</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
