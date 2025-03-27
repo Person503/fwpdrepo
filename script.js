@@ -23,7 +23,7 @@ function generateRelease() {
         // Draw "NEWS RELEASE"
         ctx.font = 'bold 30px Arial';
         ctx.fillStyle = 'black';
-        ctx.fillText('NEWS RELEASE', 50, 240);
+        ctx.fillText('NEWS RELEASE', 150, 240);
         
         // Draw "For Immediate Release"
         ctx.font = 'italic 20px Arial';
